@@ -1,75 +1,70 @@
-<mat-card>
+<div class="table-wrapper">
 
-  <mat-card-content>
+  <ng-container *ngIf="dataSource && repaymentPlanSummary; else noData">
 
-    <ng-container *ngIf="dataSource && repaymentPlanSummary; else noData">
+    <table mat-table [dataSource]="dataSource">
 
-      <table mat-table [dataSource]="dataSource">
+      <ng-container matColumnDef="date">
+        <th mat-header-cell *matHeaderCellDef>Datum</th>
+        <td mat-cell *matCellDef="let element"> {{ element.date | date: 'dd.MM.yyyy' }}</td>
+        <td mat-footer-cell *matFooterCellDef>
+          <strong>Zinsbindungsende:</strong>
+        </td>
+      </ng-container>
 
-        <ng-container matColumnDef="date">
-          <th mat-header-cell *matHeaderCellDef>Datum</th>
-          <td mat-cell *matCellDef="let element"> {{ element.date | date: 'dd.MM.yyyy' }}</td>
-          <td mat-footer-cell *matFooterCellDef>
-            <strong>Zinsbindungsende:</strong>
-          </td>
-        </ng-container>
+      <ng-container matColumnDef="remainingDebt">
+        <th mat-header-cell class="text-right" *matHeaderCellDef>Restschuld</th>
+        <td mat-cell class="text-right"
+            *matCellDef="let element"> {{ element.remainingDebt | currency:'EUR': 'symbol' }}
+        </td>
+        <td mat-footer-cell *matFooterCellDef class="text-right">
+          <strong>{{ repaymentPlanSummary.remainingDebt | currency: 'EUR': 'symbol' }}</strong>
+        </td>
+      </ng-container>
 
-        <ng-container matColumnDef="remainingDebt">
-          <th mat-header-cell class="text-right" *matHeaderCellDef>Restschuld</th>
-          <td mat-cell class="text-right"
-              *matCellDef="let element"> {{ element.remainingDebt | currency:'EUR': 'symbol' }}
-          </td>
-          <td mat-footer-cell *matFooterCellDef class="text-right">
-            <strong>{{ repaymentPlanSummary.remainingDebt | currency: 'EUR': 'symbol' }}</strong>
-          </td>
-        </ng-container>
+      <ng-container matColumnDef="interestPayment">
+        <th mat-header-cell class="text-right" *matHeaderCellDef>Zinsen</th>
+        <td mat-cell class="text-right"
+            *matCellDef="let element"> {{ element.interestPayment | currency: 'EUR': 'symbol' }}
+        </td>
+        <td mat-footer-cell *matFooterCellDef class="text-right">
+          <strong>{{ repaymentPlanSummary.totalInterest | currency: 'EUR': 'symbol' }}</strong>
+        </td>
+      </ng-container>
 
-        <ng-container matColumnDef="interestPayment">
-          <th mat-header-cell class="text-right" *matHeaderCellDef>Zinsen</th>
-          <td mat-cell class="text-right"
-              *matCellDef="let element"> {{ element.interestPayment | currency: 'EUR': 'symbol' }}
-          </td>
-          <td mat-footer-cell *matFooterCellDef class="text-right">
-            <strong>{{ repaymentPlanSummary.totalInterest | currency: 'EUR': 'symbol' }}</strong>
-          </td>
-        </ng-container>
+      <ng-container matColumnDef="repayment">
+        <th mat-header-cell class="text-right" *matHeaderCellDef>Tilgung / Auszahlung</th>
+        <td mat-cell class="text-right"
+            *matCellDef="let element"> {{ element.repayment | currency: 'EUR': 'symbol' }}
+        </td>
+        <td mat-footer-cell *matFooterCellDef class="text-right">
+          <strong>{{ repaymentPlanSummary.totalRepayment | currency: 'EUR': 'symbol' }}</strong>
+        </td>
+      </ng-container>
 
-        <ng-container matColumnDef="repayment">
-          <th mat-header-cell class="text-right" *matHeaderCellDef>Tilgung / Auszahlung</th>
-          <td mat-cell class="text-right"
-              *matCellDef="let element"> {{ element.repayment | currency: 'EUR': 'symbol' }}
-          </td>
-          <td mat-footer-cell *matFooterCellDef class="text-right">
-            <strong>{{ repaymentPlanSummary.totalRepayment | currency: 'EUR': 'symbol' }}</strong>
-          </td>
-        </ng-container>
+      <ng-container matColumnDef="totalPayment">
+        <th mat-header-cell class="text-right" *matHeaderCellDef>Rate</th>
+        <td mat-cell class="text-right"
+            *matCellDef="let element"> {{ element.totalPayment | currency: 'EUR': 'symbol' }}
+        </td>
+        <td mat-footer-cell *matFooterCellDef class="text-right">
+          <strong>{{ repaymentPlanSummary.totalPayment | currency: 'EUR': 'symbol' }}</strong>
+        </td>
+      </ng-container>
 
-        <ng-container matColumnDef="totalPayment">
-          <th mat-header-cell class="text-right" *matHeaderCellDef>Rate</th>
-          <td mat-cell class="text-right"
-              *matCellDef="let element"> {{ element.totalPayment | currency: 'EUR': 'symbol' }}
-          </td>
-          <td mat-footer-cell *matFooterCellDef class="text-right">
-            <strong>{{ repaymentPlanSummary.totalPayment | currency: 'EUR': 'symbol' }}</strong>
-          </td>
-        </ng-container>
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      <tr mat-footer-row *matFooterRowDef="displayedColumns" class="summary-row"></tr>
 
-        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-        <tr mat-footer-row *matFooterRowDef="displayedColumns" class="summary-row"></tr>
+    </table>
 
-      </table>
+  </ng-container>
 
-    </ng-container>
+  <ng-template #noData>
+    <div class="no-data-container">
+      <mat-icon color="primary">info</mat-icon>
+      <span>Bitte geben Sie die Darlehensdaten ein, um den Tilgungsplan zu berechnen.</span>
+    </div>
+  </ng-template>
 
-    <ng-template #noData>
-      <div class="no-data-container">
-        <mat-icon color="primary">info</mat-icon>
-        <span>Bitte geben Sie die Darlehensdaten ein, um den Tilgungsplan zu berechnen.</span>
-      </div>
-    </ng-template>
-
-  </mat-card-content>
-
-</mat-card>
-
+</div>
