@@ -1,0 +1,849 @@
+[
+  {
+    "date": "2025-04-29T22:00:00.000Z",
+    "remainingDebt": -100000,
+    "interestPayment": 0,
+    "repayment": -100000,
+    "totalPayment": -100000
+  },
+  {
+    "date": "2025-05-30T22:00:00.000Z",
+    "remainingDebt": -99833.34,
+    "interestPayment": 176.67,
+    "repayment": 166.66,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2025-06-29T22:00:00.000Z",
+    "remainingDebt": -99666.38,
+    "interestPayment": 176.37,
+    "repayment": 166.96,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2025-07-30T22:00:00.000Z",
+    "remainingDebt": -99499.13,
+    "interestPayment": 176.08,
+    "repayment": 167.25,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2025-08-30T22:00:00.000Z",
+    "remainingDebt": -99331.58,
+    "interestPayment": 175.78,
+    "repayment": 167.55,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2025-09-29T22:00:00.000Z",
+    "remainingDebt": -99163.74,
+    "interestPayment": 175.49,
+    "repayment": 167.84,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2025-10-30T23:00:00.000Z",
+    "remainingDebt": -98995.6,
+    "interestPayment": 175.19,
+    "repayment": 168.14,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2025-11-29T23:00:00.000Z",
+    "remainingDebt": -98827.16,
+    "interestPayment": 174.89,
+    "repayment": 168.44,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2025-12-30T23:00:00.000Z",
+    "remainingDebt": -98658.42,
+    "interestPayment": 174.59,
+    "repayment": 168.74,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2026-01-30T23:00:00.000Z",
+    "remainingDebt": -98489.39,
+    "interestPayment": 174.3,
+    "repayment": 169.03,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2026-02-27T23:00:00.000Z",
+    "remainingDebt": -98320.06,
+    "interestPayment": 174,
+    "repayment": 169.33,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2026-03-30T22:00:00.000Z",
+    "remainingDebt": -98150.43,
+    "interestPayment": 173.7,
+    "repayment": 169.63,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2026-04-29T22:00:00.000Z",
+    "remainingDebt": -97980.5,
+    "interestPayment": 173.4,
+    "repayment": 169.93,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2026-05-30T22:00:00.000Z",
+    "remainingDebt": -97810.27,
+    "interestPayment": 173.1,
+    "repayment": 170.23,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2026-06-29T22:00:00.000Z",
+    "remainingDebt": -97639.74,
+    "interestPayment": 172.8,
+    "repayment": 170.53,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2026-07-30T22:00:00.000Z",
+    "remainingDebt": -97468.91,
+    "interestPayment": 172.5,
+    "repayment": 170.83,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2026-08-30T22:00:00.000Z",
+    "remainingDebt": -97297.78,
+    "interestPayment": 172.2,
+    "repayment": 171.13,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2026-09-29T22:00:00.000Z",
+    "remainingDebt": -97126.34,
+    "interestPayment": 171.89,
+    "repayment": 171.44,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2026-10-30T23:00:00.000Z",
+    "remainingDebt": -96954.6,
+    "interestPayment": 171.59,
+    "repayment": 171.74,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2026-11-29T23:00:00.000Z",
+    "remainingDebt": -96782.56,
+    "interestPayment": 171.29,
+    "repayment": 172.04,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2026-12-30T23:00:00.000Z",
+    "remainingDebt": -96610.21,
+    "interestPayment": 170.98,
+    "repayment": 172.35,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2027-01-30T23:00:00.000Z",
+    "remainingDebt": -96437.56,
+    "interestPayment": 170.68,
+    "repayment": 172.65,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2027-02-27T23:00:00.000Z",
+    "remainingDebt": -96264.6,
+    "interestPayment": 170.37,
+    "repayment": 172.96,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2027-03-30T22:00:00.000Z",
+    "remainingDebt": -96091.34,
+    "interestPayment": 170.07,
+    "repayment": 173.26,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2027-04-29T22:00:00.000Z",
+    "remainingDebt": -95917.77,
+    "interestPayment": 169.76,
+    "repayment": 173.57,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2027-05-30T22:00:00.000Z",
+    "remainingDebt": -95743.89,
+    "interestPayment": 169.45,
+    "repayment": 173.88,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2027-06-29T22:00:00.000Z",
+    "remainingDebt": -95569.71,
+    "interestPayment": 169.15,
+    "repayment": 174.18,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2027-07-30T22:00:00.000Z",
+    "remainingDebt": -95395.22,
+    "interestPayment": 168.84,
+    "repayment": 174.49,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2027-08-30T22:00:00.000Z",
+    "remainingDebt": -95220.42,
+    "interestPayment": 168.53,
+    "repayment": 174.8,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2027-09-29T22:00:00.000Z",
+    "remainingDebt": -95045.31,
+    "interestPayment": 168.22,
+    "repayment": 175.11,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2027-10-30T22:00:00.000Z",
+    "remainingDebt": -94869.89,
+    "interestPayment": 167.91,
+    "repayment": 175.42,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2027-11-29T23:00:00.000Z",
+    "remainingDebt": -94694.16,
+    "interestPayment": 167.6,
+    "repayment": 175.73,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2027-12-30T23:00:00.000Z",
+    "remainingDebt": -94518.12,
+    "interestPayment": 167.29,
+    "repayment": 176.04,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2028-01-30T23:00:00.000Z",
+    "remainingDebt": -94341.77,
+    "interestPayment": 166.98,
+    "repayment": 176.35,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2028-02-28T23:00:00.000Z",
+    "remainingDebt": -94165.11,
+    "interestPayment": 166.67,
+    "repayment": 176.66,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2028-03-30T22:00:00.000Z",
+    "remainingDebt": -93988.14,
+    "interestPayment": 166.36,
+    "repayment": 176.97,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2028-04-29T22:00:00.000Z",
+    "remainingDebt": -93810.86,
+    "interestPayment": 166.05,
+    "repayment": 177.28,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2028-05-30T22:00:00.000Z",
+    "remainingDebt": -93633.26,
+    "interestPayment": 165.73,
+    "repayment": 177.6,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2028-06-29T22:00:00.000Z",
+    "remainingDebt": -93455.35,
+    "interestPayment": 165.42,
+    "repayment": 177.91,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2028-07-30T22:00:00.000Z",
+    "remainingDebt": -93277.12,
+    "interestPayment": 165.1,
+    "repayment": 178.23,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2028-08-30T22:00:00.000Z",
+    "remainingDebt": -93098.58,
+    "interestPayment": 164.79,
+    "repayment": 178.54,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2028-09-29T22:00:00.000Z",
+    "remainingDebt": -92919.72,
+    "interestPayment": 164.47,
+    "repayment": 178.86,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2028-10-30T23:00:00.000Z",
+    "remainingDebt": -92740.55,
+    "interestPayment": 164.16,
+    "repayment": 179.17,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2028-11-29T23:00:00.000Z",
+    "remainingDebt": -92561.06,
+    "interestPayment": 163.84,
+    "repayment": 179.49,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2028-12-30T23:00:00.000Z",
+    "remainingDebt": -92381.25,
+    "interestPayment": 163.52,
+    "repayment": 179.81,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2029-01-30T23:00:00.000Z",
+    "remainingDebt": -92201.13,
+    "interestPayment": 163.21,
+    "repayment": 180.12,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2029-02-27T23:00:00.000Z",
+    "remainingDebt": -92020.69,
+    "interestPayment": 162.89,
+    "repayment": 180.44,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2029-03-30T22:00:00.000Z",
+    "remainingDebt": -91839.93,
+    "interestPayment": 162.57,
+    "repayment": 180.76,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2029-04-29T22:00:00.000Z",
+    "remainingDebt": -91658.85,
+    "interestPayment": 162.25,
+    "repayment": 181.08,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2029-05-30T22:00:00.000Z",
+    "remainingDebt": -91477.45,
+    "interestPayment": 161.93,
+    "repayment": 181.4,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2029-06-29T22:00:00.000Z",
+    "remainingDebt": -91295.73,
+    "interestPayment": 161.61,
+    "repayment": 181.72,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2029-07-30T22:00:00.000Z",
+    "remainingDebt": -91113.69,
+    "interestPayment": 161.29,
+    "repayment": 182.04,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2029-08-30T22:00:00.000Z",
+    "remainingDebt": -90931.33,
+    "interestPayment": 160.97,
+    "repayment": 182.36,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2029-09-29T22:00:00.000Z",
+    "remainingDebt": -90748.65,
+    "interestPayment": 160.65,
+    "repayment": 182.68,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2029-10-30T23:00:00.000Z",
+    "remainingDebt": -90565.64,
+    "interestPayment": 160.32,
+    "repayment": 183.01,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2029-11-29T23:00:00.000Z",
+    "remainingDebt": -90382.31,
+    "interestPayment": 160,
+    "repayment": 183.33,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2029-12-30T23:00:00.000Z",
+    "remainingDebt": -90198.66,
+    "interestPayment": 159.68,
+    "repayment": 183.65,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2030-01-30T23:00:00.000Z",
+    "remainingDebt": -90014.68,
+    "interestPayment": 159.35,
+    "repayment": 183.98,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2030-02-27T23:00:00.000Z",
+    "remainingDebt": -89830.38,
+    "interestPayment": 159.03,
+    "repayment": 184.3,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2030-03-30T23:00:00.000Z",
+    "remainingDebt": -89645.75,
+    "interestPayment": 158.7,
+    "repayment": 184.63,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2030-04-29T22:00:00.000Z",
+    "remainingDebt": -89460.79,
+    "interestPayment": 158.37,
+    "repayment": 184.96,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2030-05-30T22:00:00.000Z",
+    "remainingDebt": -89275.51,
+    "interestPayment": 158.05,
+    "repayment": 185.28,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2030-06-29T22:00:00.000Z",
+    "remainingDebt": -89089.9,
+    "interestPayment": 157.72,
+    "repayment": 185.61,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2030-07-30T22:00:00.000Z",
+    "remainingDebt": -88903.96,
+    "interestPayment": 157.39,
+    "repayment": 185.94,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2030-08-30T22:00:00.000Z",
+    "remainingDebt": -88717.69,
+    "interestPayment": 157.06,
+    "repayment": 186.27,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2030-09-29T22:00:00.000Z",
+    "remainingDebt": -88531.09,
+    "interestPayment": 156.73,
+    "repayment": 186.6,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2030-10-30T23:00:00.000Z",
+    "remainingDebt": -88344.16,
+    "interestPayment": 156.4,
+    "repayment": 186.93,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2030-11-29T23:00:00.000Z",
+    "remainingDebt": -88156.9,
+    "interestPayment": 156.07,
+    "repayment": 187.26,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2030-12-30T23:00:00.000Z",
+    "remainingDebt": -87969.31,
+    "interestPayment": 155.74,
+    "repayment": 187.59,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2031-01-30T23:00:00.000Z",
+    "remainingDebt": -87781.39,
+    "interestPayment": 155.41,
+    "repayment": 187.92,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2031-02-27T23:00:00.000Z",
+    "remainingDebt": -87593.14,
+    "interestPayment": 155.08,
+    "repayment": 188.25,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2031-03-30T22:00:00.000Z",
+    "remainingDebt": -87404.56,
+    "interestPayment": 154.75,
+    "repayment": 188.58,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2031-04-29T22:00:00.000Z",
+    "remainingDebt": -87215.64,
+    "interestPayment": 154.41,
+    "repayment": 188.92,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2031-05-30T22:00:00.000Z",
+    "remainingDebt": -87026.39,
+    "interestPayment": 154.08,
+    "repayment": 189.25,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2031-06-29T22:00:00.000Z",
+    "remainingDebt": -86836.81,
+    "interestPayment": 153.75,
+    "repayment": 189.58,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2031-07-30T22:00:00.000Z",
+    "remainingDebt": -86646.89,
+    "interestPayment": 153.41,
+    "repayment": 189.92,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2031-08-30T22:00:00.000Z",
+    "remainingDebt": -86456.64,
+    "interestPayment": 153.08,
+    "repayment": 190.25,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2031-09-29T22:00:00.000Z",
+    "remainingDebt": -86266.05,
+    "interestPayment": 152.74,
+    "repayment": 190.59,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2031-10-30T23:00:00.000Z",
+    "remainingDebt": -86075.12,
+    "interestPayment": 152.4,
+    "repayment": 190.93,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2031-11-29T23:00:00.000Z",
+    "remainingDebt": -85883.86,
+    "interestPayment": 152.07,
+    "repayment": 191.26,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2031-12-30T23:00:00.000Z",
+    "remainingDebt": -85692.26,
+    "interestPayment": 151.73,
+    "repayment": 191.6,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2032-01-30T23:00:00.000Z",
+    "remainingDebt": -85500.32,
+    "interestPayment": 151.39,
+    "repayment": 191.94,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2032-02-28T23:00:00.000Z",
+    "remainingDebt": -85308.04,
+    "interestPayment": 151.05,
+    "repayment": 192.28,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2032-03-30T22:00:00.000Z",
+    "remainingDebt": -85115.42,
+    "interestPayment": 150.71,
+    "repayment": 192.62,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2032-04-29T22:00:00.000Z",
+    "remainingDebt": -84922.46,
+    "interestPayment": 150.37,
+    "repayment": 192.96,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2032-05-30T22:00:00.000Z",
+    "remainingDebt": -84729.16,
+    "interestPayment": 150.03,
+    "repayment": 193.3,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2032-06-29T22:00:00.000Z",
+    "remainingDebt": -84535.52,
+    "interestPayment": 149.69,
+    "repayment": 193.64,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2032-07-30T22:00:00.000Z",
+    "remainingDebt": -84341.54,
+    "interestPayment": 149.35,
+    "repayment": 193.98,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2032-08-30T22:00:00.000Z",
+    "remainingDebt": -84147.21,
+    "interestPayment": 149,
+    "repayment": 194.33,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2032-09-29T22:00:00.000Z",
+    "remainingDebt": -83952.54,
+    "interestPayment": 148.66,
+    "repayment": 194.67,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2032-10-30T22:00:00.000Z",
+    "remainingDebt": -83757.53,
+    "interestPayment": 148.32,
+    "repayment": 195.01,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2032-11-29T23:00:00.000Z",
+    "remainingDebt": -83562.17,
+    "interestPayment": 147.97,
+    "repayment": 195.36,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2032-12-30T23:00:00.000Z",
+    "remainingDebt": -83366.47,
+    "interestPayment": 147.63,
+    "repayment": 195.7,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2033-01-30T23:00:00.000Z",
+    "remainingDebt": -83170.42,
+    "interestPayment": 147.28,
+    "repayment": 196.05,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2033-02-27T23:00:00.000Z",
+    "remainingDebt": -82974.02,
+    "interestPayment": 146.93,
+    "repayment": 196.4,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2033-03-30T22:00:00.000Z",
+    "remainingDebt": -82777.28,
+    "interestPayment": 146.59,
+    "repayment": 196.74,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2033-04-29T22:00:00.000Z",
+    "remainingDebt": -82580.19,
+    "interestPayment": 146.24,
+    "repayment": 197.09,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2033-05-30T22:00:00.000Z",
+    "remainingDebt": -82382.75,
+    "interestPayment": 145.89,
+    "repayment": 197.44,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2033-06-29T22:00:00.000Z",
+    "remainingDebt": -82184.96,
+    "interestPayment": 145.54,
+    "repayment": 197.79,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2033-07-30T22:00:00.000Z",
+    "remainingDebt": -81986.82,
+    "interestPayment": 145.19,
+    "repayment": 198.14,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2033-08-30T22:00:00.000Z",
+    "remainingDebt": -81788.33,
+    "interestPayment": 144.84,
+    "repayment": 198.49,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2033-09-29T22:00:00.000Z",
+    "remainingDebt": -81589.49,
+    "interestPayment": 144.49,
+    "repayment": 198.84,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2033-10-30T23:00:00.000Z",
+    "remainingDebt": -81390.3,
+    "interestPayment": 144.14,
+    "repayment": 199.19,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2033-11-29T23:00:00.000Z",
+    "remainingDebt": -81190.76,
+    "interestPayment": 143.79,
+    "repayment": 199.54,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2033-12-30T23:00:00.000Z",
+    "remainingDebt": -80990.87,
+    "interestPayment": 143.44,
+    "repayment": 199.89,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2034-01-30T23:00:00.000Z",
+    "remainingDebt": -80790.62,
+    "interestPayment": 143.08,
+    "repayment": 200.25,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2034-02-27T23:00:00.000Z",
+    "remainingDebt": -80590.02,
+    "interestPayment": 142.73,
+    "repayment": 200.6,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2034-03-30T22:00:00.000Z",
+    "remainingDebt": -80389.07,
+    "interestPayment": 142.38,
+    "repayment": 200.95,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2034-04-29T22:00:00.000Z",
+    "remainingDebt": -80187.76,
+    "interestPayment": 142.02,
+    "repayment": 201.31,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2034-05-30T22:00:00.000Z",
+    "remainingDebt": -79986.1,
+    "interestPayment": 141.67,
+    "repayment": 201.66,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2034-06-29T22:00:00.000Z",
+    "remainingDebt": -79784.08,
+    "interestPayment": 141.31,
+    "repayment": 202.02,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2034-07-30T22:00:00.000Z",
+    "remainingDebt": -79581.7,
+    "interestPayment": 140.95,
+    "repayment": 202.38,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2034-08-30T22:00:00.000Z",
+    "remainingDebt": -79378.96,
+    "interestPayment": 140.59,
+    "repayment": 202.74,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2034-09-29T22:00:00.000Z",
+    "remainingDebt": -79175.87,
+    "interestPayment": 140.24,
+    "repayment": 203.09,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2034-10-30T23:00:00.000Z",
+    "remainingDebt": -78972.42,
+    "interestPayment": 139.88,
+    "repayment": 203.45,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2034-11-29T23:00:00.000Z",
+    "remainingDebt": -78768.61,
+    "interestPayment": 139.52,
+    "repayment": 203.81,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2034-12-30T23:00:00.000Z",
+    "remainingDebt": -78564.44,
+    "interestPayment": 139.16,
+    "repayment": 204.17,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2035-01-30T23:00:00.000Z",
+    "remainingDebt": -78359.91,
+    "interestPayment": 138.8,
+    "repayment": 204.53,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2035-02-27T23:00:00.000Z",
+    "remainingDebt": -78155.02,
+    "interestPayment": 138.44,
+    "repayment": 204.89,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2035-03-30T22:00:00.000Z",
+    "remainingDebt": -77949.76,
+    "interestPayment": 138.07,
+    "repayment": 205.26,
+    "totalPayment": 343.33
+  },
+  {
+    "date": "2035-04-29T22:00:00.000Z",
+    "remainingDebt": -77744.14,
+    "interestPayment": 137.71,
+    "repayment": 205.62,
+    "totalPayment": 343.33
+  }
+]

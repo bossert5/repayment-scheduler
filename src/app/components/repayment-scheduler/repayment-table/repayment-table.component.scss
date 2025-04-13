@@ -1,0 +1,31 @@
+mat-card {
+  overflow-x: scroll;
+}
+
+mat-table {
+  min-width: 800px;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td {
+  white-space: nowrap;
+
+  &.text-right {
+    text-align: right;
+  }
+}
+
+.no-data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+
+  mat-icon {
+    margin: 0 16px;
+  }
+
+}

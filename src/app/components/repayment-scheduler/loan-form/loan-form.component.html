@@ -1,0 +1,109 @@
+<form [formGroup]="form">
+
+  <mat-card>
+
+    <mat-card-content>
+
+      <div class="form-fields-container">
+
+        <ng-template #noErrors>
+          <mat-icon matIconPrefix class="success-icon">check_circle</mat-icon>
+        </ng-template>
+
+        <mat-form-field appearance="outline" floatLabel="always" hideRequiredMarker="true"
+                        data-test-id="loanAmount-field">
+          <mat-label>Darlehen (€)</mat-label>
+          <input matInput formControlName="loanAmount" type="number" [step]="MIN_LOAN_AMOUNT">
+
+          <mat-icon matIconPrefix>
+            <ng-container *ngIf="form.controls['loanAmount'].invalid; else noErrors">
+              <ng-container *ngIf="form.controls['loanAmount'].errors?.['required']">
+                <mat-icon matIconPrefix class="error-icon" matTooltip="Bitte geben Sie einen Betrag ein.">
+                  error
+                </mat-icon>
+              </ng-container>
+              <ng-container *ngIf="form.controls['loanAmount'].errors?.['min']">
+                <mat-icon matIconPrefix class="error-icon"
+                          matTooltip="Der Betrag muss mindestens {{ MIN_LOAN_AMOUNT }}&nbsp;€ betragen.">
+                  error
+                </mat-icon>
+              </ng-container>
+            </ng-container>
+          </mat-icon>
+
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" floatLabel="always" hideRequiredMarker="true"
+                        data-test-id="interestRate-field">
+          <mat-label>Sollzins (%)</mat-label>
+          <input matInput formControlName="interestRate" type="number" step="0.01">
+
+          <mat-icon matIconPrefix>
+            <ng-container *ngIf="form.controls['interestRate'].invalid; else noErrors">
+              <ng-container *ngIf="form.controls['interestRate'].errors?.['required']">
+                <mat-icon matIconPrefix class="error-icon" matTooltip="Bitte geben Sie einen gültigen Sollzins ein.">
+                  error
+                </mat-icon>
+              </ng-container>
+              <ng-container *ngIf="form.controls['interestRate'].errors?.['min']">
+                <mat-icon matIconPrefix class="error-icon"
+                          matTooltip="Der Sollzins muss mindestens {{ MIN_INTEREST_RATE }}&nbsp;% betragen.">
+                  error
+                </mat-icon>
+              </ng-container>
+            </ng-container>
+          </mat-icon>
+
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" floatLabel="always" hideRequiredMarker="true"
+                        data-test-id="initialRepaymentRate-field">
+          <mat-label>Tilgung (%)</mat-label>
+          <input matInput formControlName="initialRepaymentRate" type="number" step="0.01">
+
+          <mat-icon matIconPrefix>
+            <ng-container *ngIf="form.controls['initialRepaymentRate'].invalid; else noErrors">
+              <ng-container *ngIf="form.controls['initialRepaymentRate'].errors?.['required']">
+                <mat-icon matIconPrefix class="error-icon"
+                          matTooltip="Bitte geben Sie einen gültigen Tilgungssatz ein.">
+                  error
+                </mat-icon>
+              </ng-container>
+              <ng-container *ngIf="form.controls['initialRepaymentRate'].errors?.['min']">
+                <mat-icon matIconPrefix class="error-icon"
+                          matTooltip="Die Tilgung muss mindestens {{ MIN_INITIAL_REPAYMENT_RATE }}&nbsp;% betragen.">
+                  error
+                </mat-icon>
+              </ng-container>
+            </ng-container>
+          </mat-icon>
+
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" floatLabel="always" hideRequiredMarker="true"
+                        data-test-id="fixedInterestPeriod-field">
+          <mat-label>Zinsbindung in Jahren</mat-label>
+          <mat-select formControlName="fixedInterestPeriod">
+            <mat-option *ngFor="let periodOption of FIXED_INTEREST_PERIODS" [value]="periodOption">
+              {{ periodOption }} Jahre
+            </mat-option>
+          </mat-select>
+
+          <mat-icon matIconPrefix>
+            <ng-container *ngIf="form.controls['fixedInterestPeriod'].invalid; else noErrors">
+              <ng-container *ngIf="form.controls['fixedInterestPeriod'].errors?.['required']">
+                <mat-icon matIconPrefix class="error-icon">error</mat-icon>
+              </ng-container>
+            </ng-container>
+          </mat-icon>
+
+        </mat-form-field>
+
+      </div>
+
+    </mat-card-content>
+
+  </mat-card>
+
+</form>
+
