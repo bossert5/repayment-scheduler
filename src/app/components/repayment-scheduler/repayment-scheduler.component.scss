@@ -6,12 +6,17 @@
   .loan-form-card {
     flex: 0 0 auto;
     margin: 1rem;
+
+    mat-card-content {
+      padding-bottom: 0;
+    }
   }
 
   .repayment-table-card {
     flex: 1 1 auto;
-    overflow: auto;
     margin: 0 1rem 1rem 1rem;
+    min-height: 0;
+    overflow: auto;
   }
 
 }

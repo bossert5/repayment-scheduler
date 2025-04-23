@@ -1,27 +1,37 @@
-mat-table {
-  min-width: 800px;
-}
+.table-wrapper {
 
-th.text-right {
-  text-align: right;
-}
+  table {
+    width: 100%;
+    min-width: 800px;
+  }
 
-td {
-  white-space: nowrap;
+  .header-row {
+    position: sticky;
+    top: 0;
+  }
 
-  &.text-right {
+  th.text-right {
     text-align: right;
   }
-}
 
-.no-data-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1rem;
+  td {
+    white-space: nowrap;
 
-  mat-icon {
-    margin: 0 16px;
+    &.text-right {
+      text-align: right;
+    }
+  }
+
+  .no-data-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+
+    mat-icon {
+      margin: 0 16px;
+    }
+
   }
 
 }
